@@ -8,6 +8,7 @@
   padding: 0;
   font-family: "popples", sans-serif;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -17,14 +18,22 @@ body {
 
 /* header section */
 #header {
-  width: 100%;
-  height: 100vh;
-  /* background-image: url(images/me.jpg); */
-  background-size: cover;
-  background-position: center;
+  position: relative;
 }
 
-.container {
+#header::before {
+  content: "";
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  background: url(./images/hero-bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.2;
+}
+
+.section-container {
+  position: relative;
   padding: 10px 10%;
 }
 
@@ -106,6 +115,7 @@ nav ul li a:hover::after {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.3s ease-in-out;
 }
 
 .img-hero > img {
