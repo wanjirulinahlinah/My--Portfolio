@@ -97,6 +97,7 @@ nav ul li a:hover::after {
   color: var(--accentRed);
 }
 
+/* hero image styling */
 .img-hero {
   flex: 0.8;
   background-color: rgba(0, 0, 255, 0.1);
