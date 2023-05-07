@@ -54,3 +54,17 @@ nav ul li a::after{
         width: 100%;
     
     }
+    }
+    .header-text{
+        margin-top: 20%;
+        font-size: 30px;
+    }
+    .header-text h1{
+        font-size: 60px;
+    
+    }
+    .header-text h1 span{
+        color: #ff004f;
+    
+    }
+
