@@ -1,60 +1,200 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Linah Wainaina</title>
-<link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/06a2fefce6.js" crossorigin="anonymous"></script>
 </head>
 <body>
-   <div class="header">
-
-<div class="container">
-   <!-- < NAVBAR START> -->
-    <nav>
-       
-        <p class="logo-text">Lin<span>ah.</span>
-        </p>
-                <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-    <br>
-    <br>
-<!-- <HEADER INTRO TEXT> -->
-    <div class="hero">
-        <div class="header-text">
-
-</div>
-<div class="flex">
-<div class="font">
-    <h1>Software Developer</h1>
-    <br>
-    <br>
-    <br>
-    <br>
-<h2 class="d">
-    Hi, I I'm <span>Linah  Wanjiru</span>  
-    From Kenya.
-</h2>
-
-</div>
-    <div class="img-hero">
-        <img class="img" src="./images/me.jpg" alt="my profile image"/>
-     
+    <div class="l1">
+        <div class="container">
+            <nav>
+                <div>
+                <ul class="K1">LINAH.</ul>
+            </div>
+                <ul class="K2">
+                    <li><a href="# header">Home</a></li>
+                    <li><a href="# about">About</a></li>
+                    <li><a href="# services">Services</a></li>
+                    <li><a href="# portfolio">Portfolio</a></li>
+                    <li><a href="# contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
     </div>
-        </div>
-        <!-- <about header> -->
-<!-- <div id="about">
-<h2>About Me</h2> -->
+<section class="K7">
+<div class="K3">
+    <ul class="K5">Software Developer</ul>
+    <br>
+    <br>
+    <ul class="K4">Hello, I am <span class="k6">Linah Wainaina</span><br>from Kenya.</ul>
+</div>
+<div>
+    <img src="images/linah~2 (1).jpg" alt="" class="k8">
+</div>
+</section>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<section class="v1">
+<div class="t1">
+    <img src="/images/linah~2 (1).jpg" alt=""  class="k9">
+</div>
+<div>
+    <br>
+    <br>
+    <br>
+    <h1 class="k10">About Me</h1>
+    <br>
+<div class="v2">
+Hello there! I'm linah, a tech student at AkiraChix with a passion for technology.
+<br>
+
+I am self-motivated and enthusiastic about learning something new each day
+ <br>
+
+I possess knowledge in various areas such as UI/UX Design, product management, Backend development,IOT and UX Research.
+<br>
+Additionally, I am proficient in utilizing HTML and CSS to construct responsive websites.
+<br>
+My passion for technology stems from the belief that it presents an opportunity to apply my skills and knowledge
+ to enhance people's lives and increase productivity. As I progress in my career, I am eager to engage with 
+ industryexperts and collaborate with like-minded software developers.<br> My ultimate goal is to develop innovative solutions 
+  that contribute to improving the world we live in.
+</div>
+<br>
+<br>
+<br>
+<div class="tab-title">
+<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+<p class="tab-links" onclick="opentab('experience')">Experience</p>
+<p class="tab-links" onclick="opentab('education')">Education</p>
+</div>
+<div class="tab-contents active-tab" id="skills">
+    <ul>UI/UX</ul>
+    <br>
+    <ul>Backend Development</ul>
+    <br>
+    <ul>Internet Of Things(IOT)</ul>
+    <br>
+    
+</div>
+<div class="tab-contents " id="experience">
+    <ul>I have actively engaged with IoT technologies, leveraging my skills to develop innovative <span><br>solutions that connect devices and collect valuable data for enhanced user experiences.</span></ul>
+    <br>
+</div>
+<div class="tab-contents " id="education">
+    <ul>Gatanga girls<span><br>2017-2020<br>Certificate In Secondary Education</span></ul>
+    <br>
+    <ul>AkiraChix<span><br>2023<br>Diploma In Software Development</span></ul>
 </div>
 </div>
- </div>
- </body>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tablinkss){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tablinkss).classList.add("active-tab");
+    }
+    </script>
+</section>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<section class="h2">
+<div class="m1">
+    <h1  class="k11">Contact Me</h1>
+    <br>
+    <p> <i class="fa-solid fa-paper-plane"></i class></i>wainainalinahw@gmail.com</p>
+    <br>
+    <p> <i class="fa-solid fa-phone"></i>+254 746 852 623</p>
+    <br>
+    <div class="icons">
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://twitter.com/LinahWaina2905"><i class="fa-brands fa-twitter-square"></i></a>
+        <a href="https://www.linkedin.com/in/linah-wainaina/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/wanjirulinahlinah?tab=repositories"><i class="fa-brands fa-github"></i></a>
+        <br>
+        <br>
+        <button class="mol1">Download CV</button>
+    </div>
+</div>
+<div class="m2">
+    <input class="j3" type="text" name="Name" placeholder="Enter yor name" required>
+    <br>
+    <br>
+    <input class="j3" type="text" name="Email" placeholder="Enter your email" required>
+    <br>
+    <br>
+    <textarea class="j3" name="Message" rows="5" placeholder="Enter Your  message"></textarea>
+    <br>
+    <br>
+    <button class="j2" type="submit">Submit</button>
+</div>
+</section>
+<br>
+<br>
+<br>
+<br>
+</body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
